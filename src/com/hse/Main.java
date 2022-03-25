@@ -19,7 +19,7 @@ public class Main {
             }
         }
         System.out.println("Еhe value 'x' has been saved successfully");
-        System.out.println("Enter array elements or enter 'quit' to stop writing elements to the array");
+        System.out.println("Enter collection elements or enter 'quit' to stop writing elements to the collection");
         // Ввод новых элементов и их добавление в исходную коллекцию
         LinkedList<Integer> originalList = new LinkedList<>();
         while (!in.hasNext("quit")) {
